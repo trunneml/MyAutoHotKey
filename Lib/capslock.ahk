@@ -9,7 +9,7 @@ capslock_init()
 }
 
 ; CapsLock as ESC
-CapsLock::Send {ESC}
+*CapsLock::Send {Blind}{ESC}
 
 ; (partly) Restore function of SC027 -- this is ; in US and ö in DE
 SC027::Send {SC027}
@@ -37,6 +37,8 @@ SC027 & O::Send {End}
 ; Lefthand Enter and Backspace
 CapsLock & Space::Send {Enter}
 CapsLock & LAlt::Send {BS}
+!CapsLock::Send {BS}
+
 
 ; Windows 10 VDesktop-Navigation
 CapsLock & WheelDown::Send {Blind}#^{Right}
