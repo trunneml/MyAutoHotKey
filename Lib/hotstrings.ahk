@@ -10,6 +10,7 @@ hotstrings_init()
 :*b0:michael@::trunner.de
 :C:MT::Michael Trunner
 
+; German Stuff
 :C1:MfG::Mit freundlichen Gr{U+00fc}{U+00df}en
 :C:VG::Viele Gr{U+00fc}{U+00df}e
 
