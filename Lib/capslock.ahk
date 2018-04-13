@@ -36,7 +36,7 @@ SC027 & O::Send {End}
 
 ; Lefthand Enter and Backspace
 CapsLock & Space::Send {Enter}
-CapsLock & LAlt::Send {Blind}{BS}
+CapsLock & LAlt::Send {BS}
 
 ; Windows 10 VDesktop-Navigation
 CapsLock & WheelDown::Send {Blind}#^{Right}
