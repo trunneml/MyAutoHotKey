@@ -37,7 +37,7 @@ IfInString, Hotstring, :R`:::
     return
 }
 ; Otherwise, add the hotstring and reload the script:
-FileAppend, `n%Hotstring%, %A_ScriptDir%\Lib\generatedhotstrings.ahk  ; Put a `n at the beginning in case file lacks a blank line at its end.
+FileAppend, `n%Hotstring%, %A_ScriptDir%\Lib\generatedbyhotstringhelper.ahk  ; Put a `n at the beginning in case file lacks a blank line at its end.
 Reload
 Sleep 200 ; If successful, the reload will close this instance during the Sleep, so the line below will never be reached.
 MsgBox, 4,, The hotstring just added appears to be improperly formatted.  Would you like to open the script for editing? Note that the bad hotstring is at the bottom of the script.

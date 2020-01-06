@@ -9,12 +9,13 @@ hotstrings_init()
 ::m@t::michael@trunner.de
 :*b0:michael@::trunner.de
 :C:MT::Michael Trunner
+:C:MG::Michael Graf
 
 ; German Stuff
-:C1:MfG::Mit freundlichen Gr{U+00fc}{U+00df}en
-:C:VG::Viele Gr{U+00fc}{U+00df}e
+:C1:MfG::Mit freundlichen Gr{U+00fc}{U+00df}en{Enter}{Enter}Michael Graf
+:C:VG::Viele Gr{U+00fc}{U+00df}e{Enter}{Enter}Michael Graf
 
-::bzw::beziehungsweise
+;::bzw::beziehungsweise
 
 ; Java
 :://a::

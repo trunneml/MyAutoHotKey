@@ -2,11 +2,12 @@
 #Persistent
 FileEncoding, UTF-8
 
-; init submodules
-capslock_init()
+; init submodules 
+; capslock_init()
 windowmanager_init()
 hotstringhelper_init()
 hotstrings_init()
+mouse_init()
 
 ; Auto Reloader
 SetTimer,CheckIfAutoReloadNeeded,500

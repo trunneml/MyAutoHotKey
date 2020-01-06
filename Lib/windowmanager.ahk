@@ -10,12 +10,12 @@ windowmanager_init()
 windowmanager_init()
 
 ; Define your hotkey here and below!
-LWin & LButton::
+~LWin & LButton::
 SetTimer, TrackIt, 50
 return
 
 ; Define your hotkey here and above!
-LWin & LButton Up::
+~LWin & LButton Up::
 SetTimer, TrackIt, Off
 GoSub, MoveIt
 GoSub, ResetIt
