@@ -18,6 +18,6 @@ hotstrings_init()
 ;::bzw::beziehungsweise
 
 ; Java
-:://a::
+:://aaa::
 SendInput // Arrange{Enter}{Enter}// Act{Enter}// Assert{Enter}{Up}{Up}{Up}
 return
